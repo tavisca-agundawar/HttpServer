@@ -1,0 +1,87 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\agundawar\\Source\\Repos\\HttpServer\\NSCWServer.Test\\NSCWServer.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\agundawar\\Source\\Repos\\HttpServer\\NSCWServer.Test\\NSCWServer.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\agundawar\\Source\\Repos\\HttpServer\\NSCWServer.Test\\NSCWServer.Test.csproj",
+        "projectName": "NSCWServer.Test",
+        "projectPath": "C:\\Users\\agundawar\\Source\\Repos\\HttpServer\\NSCWServer.Test\\NSCWServer.Test.csproj",
+        "packagesPath": "C:\\Users\\agundawar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\agundawar\\Source\\Repos\\HttpServer\\NSCWServer.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\agundawar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {
+              "C:\\Users\\agundawar\\Source\\Repos\\HttpServer\\NSCWServer\\NSCWServer.csproj": {
+                "projectPath": "C:\\Users\\agundawar\\Source\\Repos\\HttpServer\\NSCWServer\\NSCWServer.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[15.9.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            },
+            "xunit.runner.visualstudio": {
+              "target": "Package",
+              "version": "[2.4.0, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    },
+    "C:\\Users\\agundawar\\Source\\Repos\\HttpServer\\NSCWServer\\NSCWServer.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\agundawar\\Source\\Repos\\HttpServer\\NSCWServer\\NSCWServer.csproj",
+        "projectName": "NSCWServer",
+        "projectPath": "C:\\Users\\agundawar\\Source\\Repos\\HttpServer\\NSCWServer\\NSCWServer.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    }
+  }
+}
